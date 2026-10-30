@@ -1,0 +1,14 @@
+:root { --pulse-teal: #0f766e; }
+.stApp { background: #f6f8fb; color: #152b3c; }
+[data-testid="stSidebar"] { background: #eaf1f5; border-right: 1px solid #d6e1e8; }
+.block-container { padding-top: 2.4rem; padding-bottom: 3rem; max-width: 1400px; }
+h1, h2, h3 { color: #143a4a; letter-spacing: -0.03em; }
+.eyebrow { font-size: .78rem; letter-spacing: .18em; color: #0f766e; font-weight: 700; }
+[data-testid="stMetric"] { background: white; padding: 1.2rem; border: 1px solid #dce6ec;
+  border-radius: 14px; margin-bottom: .8rem; box-shadow: 0 3px 12px #173b4b06; }
+[data-testid="stMetricValue"] { color: #0f766e; font-size: 1.65rem; }
+[data-testid="stExpander"], [data-testid="stVerticalBlockBorderWrapper"] { border-radius: 12px; }
+.stButton button, .stDownloadButton button { border-radius: 9px; }
+.stButton button[kind="primary"] { background: #0f766e; border-color: #0f766e; color: white; }
+[data-testid="stChatMessage"] { background: white; border: 1px solid #dce6ec; border-radius: 12px; }
+@media (max-width: 700px) { .block-container { padding: 1rem; } }

@@ -1,0 +1,10 @@
+streamlit>=1.50,<2
+mysql-connector-python>=9.0,<10
+pandas>=2.2,<4
+numpy>=1.26,<3
+matplotlib>=3.9,<4
+seaborn>=0.13,<0.14
+langchain>=1.0,<2
+langchain-groq>=1.0,<2
+python-dotenv>=1.0,<2
+openpyxl>=3.1,<4
